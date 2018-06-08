@@ -96,7 +96,53 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* couleurs dust storm #D8CBC7 - hunter green #33673B - dark jungle green #19231A*/
 
+/* start GLOBAL CLASSES */
+/* end GLOBAL CLASSES */
+
+/* start COMMON RULES */
+body{
+  background-color: #D8CBC7;
+}
+
+main{
+  background-color: #D8CBC7;
+}
+
+nav{
+  background-color: #19231A;
+}
+
+footer{
+  background-color: #19231A;
+}
+
+section{
+  background-color: #33673B;
+}
+/* end COMMON RULES */
+
+/* start HEADER */
+/* end HEADER */
+
+/* start NAV */
+
+/* end NAV */
+
+/* start FOOTER */
+
+/* end FOOTER */
+
+/* start MAIN */
+
+/* end MAIN */
+
+/* start MAIN FIRST SECTION */
+/* end MAIN FIRST SECTION */
+
+/* start MAIN SECOND SECTION */
+/* end MAIN SECOND SECTION */
 
 
 
