@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>contact</title>
+  <meta name="description" content="blog concernant l'âge du héron">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- start HEADER -->
+  <header>
+    <img src="img/header.jpg" alt="en-tête du blog représentant un héron">
+    <h1>l'âge du héron</h1>
+  </header>
+  <!-- end HEADER -->
+
+  <!-- start NAV -->
+  <nav>
+    <ul>
+      <li><a href="index.html">accueil</a></li>
+      <li><a href="bio.html">présentation de l'auteur</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+    <form class="recherche" action="index.html" method="post">
+    </form>
+  </nav>
+  <!-- end NAV -->
+
+  <!-- start MAIN -->
+  <main>
+
+    <form method="post" action="fichier.php">
+
+      <h2>pour me contacter</h2>
+      <p>vous pouvez remplir les champs ci-dessous<br/>
+      je ne réponds jamais (j'étudie l'âge du héron)</p>
+
+      <input type="text" name="nom" id="nom" placeholder="vos nom et prénom" required />
+
+      <input type="email" placeholder="votre adresse mail" required/>
+
+      <p>
+        selon vous, quel âge a le héron ?<br />
+        <input type="radio" name="age" value="moins5" id="moins5" /> <label for="moins5">moins de 5 ans</label><br />
+        <input type="radio" name="age" value="medium5-20" id="medium5-20" /> <label for="medium5-20">entre 5 et 20 ans</label><br />
+        <input type="radio" name="age" value="plus20" id="plus20" /> <label for="plus20">le héron est éternel</label><br />
+        <input type="radio" name="age" value="rien" id="rien" /> <label for="rien">ce n'est pas un héron</label>
+      </p>
+
+      <textarea name="texte" id="texte" placeholder="rédigez votre message ici, s'il vous plaît" required></textarea>
+
+      <input type="submit" value="envoyer">
+
+    </form>
+
+  </main>
+  <!-- end MAIN -->
+
+  <!-- start FOOTER -->
+  <footer>
+    <ul>
+      <li>copyright 2018 Ben</li>
+      <li><a href="#">plan du site</a></li>
+      <li><a href="#">CGU</a></li>
+      <li><a href="#">inscription à la newsletter</a></li>
+      <li><a href="#">créez votre blog</a></li>
+    </ul>
+  </footer>
+  <!-- end FOOTER -->
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
