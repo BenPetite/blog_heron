@@ -96,7 +96,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* couleurs dust storm #D8CBC7 - hunter green #33673B - dark jungle green #19231A*/
 /* 1D7874 myrtle green - #627264 granite grey - #A1CDA8 cambridge blue */
 /* polices de caractères : font-family: 'Roboto', sans-serif; font-family: 'Oswald', sans-serif;*/
 
@@ -124,6 +123,7 @@ textarea {
 
 header, nav, footer{
   display: flex;
+  justify-content: center;
   align-content: space-between;
   margin: 0;
 }
@@ -141,20 +141,22 @@ footer ul li a, nav ul li a, section article p a{
 
 section/*1 et 2*/
 
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
-}
-
 /* end COMMON RULES */
 
 /* start HEADER */
 header{
-background-color: #A1CDA8;
+  background-color: #A1CDA8;
 }
 
-/* start NAV */
+header h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+  }
 
+/* start NAV */
+nav ul li a i{
+  padding-right: 3px;
+}
 /* end NAV */
 
 /* start FOOTER */
@@ -198,6 +200,11 @@ section article p a{
   padding-right: 7px;
   padding-bottom: 3px;
   padding-top: 3px;
+}
+
+section article h4{
+  font-size: .8em;
+  padding-left: 10px;
 }
 /* end MAIN SECOND SECTION */
 
