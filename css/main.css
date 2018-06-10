@@ -97,34 +97,62 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* couleurs dust storm #D8CBC7 - hunter green #33673B - dark jungle green #19231A*/
+/* polices de caractères : font-family: 'Roboto', sans-serif; font-family: 'Oswald', sans-serif;*/
 
 /* start GLOBAL CLASSES */
+.first_section{
+  width: 90%;
+  /* display: inline-flex; */
+  /* align-items: center; */
+  /* align-self: flex-start; */
+  text-align: center;
+}
+
+.second_section{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+}
 /* end GLOBAL CLASSES */
 
 /* start COMMON RULES */
-body{
+ body{
   background-color: #D8CBC7;
+  color : #D8CBC7;
 }
 
-main{
-  background-color: #D8CBC7;
+header, nav, main, footer{
+  display: flex;
+  align-content: space-between;
+  margin: 0;
 }
 
-nav{
+nav, footer{
+  text-align: center;
   background-color: #19231A;
 }
 
-footer{
-  background-color: #19231A;
+footer ul li a, nav ul li a, section article p a{
+  list-style-type: none;
+  text-decoration: none;
+  color: #D8CBC7;
 }
 
-section{
+section/*1 et 2*/{
   background-color: #33673B;
 }
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Oswald', sans-serif;
+}
+
 /* end COMMON RULES */
 
 /* start HEADER */
-/* end HEADER */
+header{
+background-color: #33673B;
+}
 
 /* start NAV */
 
@@ -135,13 +163,36 @@ section{
 /* end FOOTER */
 
 /* start MAIN */
+main{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #D8CBC7;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 10px;
+}
 
+main h3,h2{
+  text-align: center;
+}
 /* end MAIN */
 
 /* start MAIN FIRST SECTION */
 /* end MAIN FIRST SECTION */
 
 /* start MAIN SECOND SECTION */
+section article{
+  border: solid black 1px;
+  border-radius: 20px;
+  width: 25%;
+  height: auto;
+  text-align: justify;
+  padding: 10px;
+  margin: 5px;
+}
 /* end MAIN SECOND SECTION */
 
 
