@@ -114,6 +114,17 @@ textarea {
   align-items: flex-start;
   flex-direction: row;
 }
+
+.page_article{
+  display: flex;
+  align-content: center;
+  border: solid black 1px;
+  border-radius: 20px;
+  height: auto;
+  text-align: justify;
+  padding: 10px;
+  margin: 5px;
+}
 /* end GLOBAL CLASSES */
 
 /* start COMMON RULES */
