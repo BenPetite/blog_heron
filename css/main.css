@@ -96,13 +96,35 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* 1D7874 myrtle green - #627264 granite grey - #A1CDA8 cambridge blue */
-/* polices de caractères : font-family: 'Roboto', sans-serif; font-family: 'Oswald', sans-serif;*/
+/* #2F4858 dark slate grey - #F6AE2D saffron*  #F9CB79 topaz/
+/*polices de caractères : font-family: 'Roboto', sans-serif; font-family: 'Oswald', sans-serif;*/
 
 /* start GLOBAL CLASSES */
+.boutonNav{
+  display: inline-block;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.boutonFooter{
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.boutonSuite{
+  display: list-item;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
 .first_section{
   width: 90%;
-  background-color: #A1CDA8;
+  /* background-color: #F6AE2D; */
   border-radius: 20px;
   padding: 10px;
   margin: 15px;
@@ -113,10 +135,12 @@ textarea {
 }
 
 .second_section{
+  /* background-color: white; */
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   flex-direction: row;
+  border-radius: 20px;
 }
 
 .page_article{
@@ -137,18 +161,14 @@ body{
 }
 
 header, nav, footer{
-  background-color: #1D7874;
+  background-color: #2F4858;
   display: flex;
-  justify-content: center;
   align-content: space-between;
   margin: 0;
 }
 
-nav, footer{
-  align-content: center;
-}
-
-footer ul li a, nav ul li a, section article p a{
+footer ul li a{
+  display: list-item;
   list-style-type: none;
   text-decoration: none;
   color: white;
@@ -159,26 +179,46 @@ footer ul li a, nav ul li a, section article p a{
 
 /* start HEADER */
 header{
+  justify-content: center;
   margin: 0;
 }
 
 /* start NAV */
 nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   padding-bottom: 10px;
+}
+
+nav ul a{
+  text-decoration: none;
+  color: white;
 }
 
 nav ul li a i{
   padding-right: 3px;
 }
+
+nav input{
+  text-align: center;
+  float: right;
+    color: white;
+    margin: 0;
+}
 /* end NAV */
 
 /* start FOOTER */
-
+footer{
+  color: white;
+  flex-direction: row;
+  align-content: center;
+}
 /* end FOOTER */
 
 /* start MAIN */
 main{
-  background-color: white;
+  background-color:  #F9CB79;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -198,6 +238,7 @@ main h3,h2{
 
 /* start MAIN SECOND SECTION */
 section article{
+  background-color: white;
   border: solid black 1px;
   border-radius: 20px;
   width: 25%;
@@ -208,18 +249,20 @@ section article{
 }
 
 section article p a{
-  background-color: #1D7874;
+  background-color: #2F4858;
   font-style: italic;
   padding-left: 5px;
   padding-right: 7px;
   padding-bottom: 3px;
   padding-top: 3px;
+  border-radius: 5px;
 }
 
 section article h4{
   font-size: .8em;
   padding-left: 10px;
 }
+
 /* end MAIN SECOND SECTION */
 
 
